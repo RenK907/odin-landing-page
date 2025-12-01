@@ -28,6 +28,26 @@ button {
 .header {
     background-color: #1f2937;
     display: flex;
+    justify-content: space-around;
+    color: #f9faf8;
+    padding: 20px;
+}
+
+.navigation {
+    display: flex;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    
+}
+
+.nav-links a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 
@@ -37,10 +57,29 @@ button {
 .content {
     flex: 1;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-container{
+    background-color: #1f2937;
+    flex: 1;
+}
+
+.info {
+    flex: 1;
 }
 
 .quote {
+    flex: 1;
     background-color: #e5e7eb;
+}
+
+.call-to-action {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .call-subcontainer {
