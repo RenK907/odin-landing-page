@@ -61,18 +61,27 @@ button {
     justify-content: space-between;
 }
 
+.hero-section {
+    background-color: #1f2937 ;
+    width: 100vw;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
 .hero-container{
     background-color: #1f2937;
-    flex: 1;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     gap: 50px;
+    width: 75vw;
 }
 
 .hero-text {
-    width: 410px;
+    width: 450px;
     color: #f9faf8;
+    flex-shrink: 0;
 }
 
 .hero-text span {
@@ -86,13 +95,17 @@ button {
 }
 
 .signup-button {
-    padding-top: 16px;
+    margin-top: 10px;
 }
 
 .hero-image {
-    width: 478px;
+    width: 475px;
     background-color: grey;
     height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
 }
 
 .info {
