@@ -64,6 +64,35 @@ button {
 .hero-container{
     background-color: #1f2937;
     flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-text {
+    width: 410px;
+    color: #f9faf8;
+}
+
+.hero-text span {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.signup-button {
+    padding-top: 16px;
+}
+
+.hero-image {
+    width: 478px;
+    background-color: grey;
+    height: 220px;
 }
 
 .info {
