@@ -114,6 +114,7 @@ button {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    color: #f9faf8;
 }
 
 .info {
