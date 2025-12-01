@@ -70,6 +70,8 @@ button {
     justify-content: space-between;
 }
 
+/* Hero Section Styles */
+
 .hero-section {
     background-color: #1f2937 ;
     width: 100vw;
@@ -117,14 +119,65 @@ button {
     color: #f9faf8;
 }
 
-.info {
+/* Info Section Styles */
+
+.info-section {
+    width: 100vw;
     flex: 1;
+    display: flex;
+    justify-content: center;
 }
+
+.info-container {
+    width: 1024px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.info-container span {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card-child {
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align-last: center;
+    font-size: 18px;
+    color: #1f2937;
+}
+
+
+
+.card-img {
+    width: 170px;
+    height: 170px;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+}
+
+/* Quote Section Styles */
 
 .quote {
     flex: 1;
     background-color: #e5e7eb;
 }
+
+/* Call to Action Section Styles */
 
 .call-to-action {
     flex: 1;
