@@ -28,9 +28,16 @@ button {
 .header {
     background-color: #1f2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     color: #f9faf8;
     padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    width: 1024px;
+    justify-content: space-between;
+    flex-shrink: 0;
 }
 
 .navigation {
@@ -72,10 +79,9 @@ button {
 .hero-container{
     background-color: #1f2937;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 50px;
-    width: 75vw;
+    width: 1024px;
 }
 
 .hero-text {
