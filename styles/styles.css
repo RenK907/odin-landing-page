@@ -1,13 +1,56 @@
 /* General Styles */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;    
+    font-family: "Roboto", sans-serif;
+}
+
+button {
+    background-color: #3882f6;
+    color: #fff;
+    padding: 5px 20px 5px 20px;
+    border-style: none;
+    border-radius: 6px;
+}
 
 /* Header Styles */
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+}
 
 
 
 /* Content Styles */
 
+.content {
+    flex: 1;
+    display: flex;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.call-subcontainer {
+    background-color: #3882f6;
+}
 
 
 /* Footer Styles */
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+}
