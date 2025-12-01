@@ -18,9 +18,11 @@ body {
 button {
     background-color: #3882f6;
     color: #fff;
-    padding: 5px 20px 5px 20px;
     border-style: none;
-    border-radius: 6px;
+    border-radius: 10px;
+    width: 140px;
+    height: 40px;
+    font-size: 18px;
 }
 
 /* Header Styles */
