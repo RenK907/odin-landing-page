@@ -1,6 +1,5 @@
 /* General Styles */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
@@ -161,8 +160,6 @@ button {
     color: #1f2937;
 }
 
-
-
 .card-img {
     width: 170px;
     height: 170px;
@@ -172,9 +169,32 @@ button {
 
 /* Quote Section Styles */
 
-.quote {
+.quote-section {
     flex: 1;
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.quote-container p {
+    font-size: 26px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-container span {
+    font-size: 26px;
+    font-weight: bold;
+    align-self: flex-end;
 }
 
 /* Call to Action Section Styles */
@@ -189,6 +209,8 @@ button {
 .call-subcontainer {
     background-color: #3882f6;
 }
+
+
 
 
 /* Footer Styles */
